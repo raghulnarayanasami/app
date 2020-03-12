@@ -71,7 +71,7 @@ Login
     click element  xpath://*[@id="lxk-navbar-collapse-1"]/ul[1]/li[2]/ul/li/div/div/ul/li[1]/a
     sleep  5s
     click element  xpath:/html/body/div[2]/div[2]/div[5]/div[1]/div/div/div/div/div/div[1]/div/div[1]/div/span
-    sleep  30s
+    sleep  10s
     #click view product
     #scroll element into view  xpath://*[@id="finder"]/div/div[2]/div/div[3]/div[1]/div[2]/div[1]/h4
    # sleep  1s
