@@ -46,6 +46,7 @@ Register
     sleep  2s
     click element  xpath://*[@id="mainContent"]/div/article/div/section/form/div[12]/button[2]
     #element text should be  xpath://*[@id="mainContent"]/div/article/header/div    Your account has been created.
+    close browser
 Login
     [Tags]  Login
     open browser    ${LOGIN URL}   chrome
@@ -82,5 +83,6 @@ Login
     sleep  2s
     click element  xpath://*[@id="lxk-navbar-collapse-1"]/ul[2]/li[2]/ul/li/div/div/ul/li[4]/a
     sleep  2s
+    close browser
 
 *** Keywords ***
