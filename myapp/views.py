@@ -99,4 +99,4 @@ def selenium(request):
 
 
 def batFile():
-    os.system("C:\\Users\\Administrator\\Desktop\\jenkins\\workspace\\demo\\lexmark.bat")
+    os.system("C:\\jenkins\\workspace\\demo\\lexmark.bat")
