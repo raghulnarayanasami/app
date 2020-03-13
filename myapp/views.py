@@ -57,7 +57,7 @@ def s3bucket(request):
                    return render(request, 'myapp/message.html', context)
 
             handle_uploaded_file(request.FILES['file'])
-            uploadfile = "C:\\Users\\Administrator\\Desktop\\jenkins\\workspace\\demo\\myapp\\static\\upload"+filename
+            uploadfile = "C:\\Users\\Administrator\\Desktop\\jenkins\\workspace\\demo\\myapp\\static\\upload\\"+filename
             boto3connection(bucketname, filename, uploadfile)
             context['error'] = "The NEW Bucket is created : " + bucketname + " and The FIle is Uploaded Successfully in that Bucket"
             return render(request, 'myapp/message.html', context)
